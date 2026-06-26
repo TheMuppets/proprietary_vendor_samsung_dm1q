@@ -16,10 +16,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm1q/proprietary/odm/firmware/evass.mbn:$(TARGET_COPY_OUT_ODM)/firmware/evass.mbn \
     vendor/samsung/dm1q/proprietary/odm/firmware/evass.mdt:$(TARGET_COPY_OUT_ODM)/firmware/evass.mdt \
     vendor/samsung/dm1q/proprietary/odm/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_4v.mbn \
-    vendor/samsung/dm1q/proprietary/vendor/etc/audconf/OPEN/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/acdb_cal.acdb \
-    vendor/samsung/dm1q/proprietary/vendor/etc/audconf/OPEN/workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/workspaceFileXml.qwsp \
-    vendor/samsung/dm1q/proprietary/vendor/etc/audio/sku_kalama/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths.xml \
-    vendor/samsung/dm1q/proprietary/vendor/etc/audio/sku_kalama/resourcemanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager.xml \
+    vendor/samsung/dm1q/proprietary/vendor/etc/acdbdata/kalama_mtp/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/kalama_mtp/acdb_cal.acdb \
+    vendor/samsung/dm1q/proprietary/vendor/etc/acdbdata/kalama_mtp/workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/kalama_mtp/workspaceFileXml.qwsp \
     vendor/samsung/dm1q/proprietary/vendor/etc/audio_effects_haptic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_haptic.xml \
     vendor/samsung/dm1q/proprietary/vendor/etc/display/qdcm_calib_data_DM1_LX83118_CM002.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_DM1_LX83118_CM002.json \
     vendor/samsung/dm1q/proprietary/vendor/etc/display/qdcm_calib_data_DM1_S6E3FAC_AMB606AW01.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_DM1_S6E3FAC_AMB606AW01.json \
@@ -298,7 +296,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl-qti \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.bluetooth@1.1-impl-qti \
-    audio.primary.kalama \
     camera.qcom \
     com.qti.chi.offline \
     com.qti.chi.override \
@@ -316,8 +313,6 @@ PRODUCT_PACKAGES += \
     lib_SamsungRec_08020 \
     lib_SoundAlive_play_plus_ver800 \
     lib_lvacfs \
-    libagm \
-    libar-pal \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
