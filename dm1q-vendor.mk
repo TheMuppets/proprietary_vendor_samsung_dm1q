@@ -342,7 +342,6 @@ PRODUCT_PACKAGES += \
     sensors.grip \
     sensors.ssc \
     libaudiosaplus_sec \
-    libsamsungSoundbooster_plus \
     libswdap \
     libswspatializer \
     vendor.qti.hardware.bluetooth_sar@1.0 \
