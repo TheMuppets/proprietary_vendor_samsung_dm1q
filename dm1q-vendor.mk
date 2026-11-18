@@ -173,7 +173,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     SWPD_libTsAf_3K1_TELE \
-    btaudio_offload_if \
     com.samsung.ois.mcu_stm32g \
     com.samsung.sensor.hi1337 \
     com.samsung.sensor.hi847 \
@@ -294,7 +293,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.mcx.policy.xr \
     com.qualcomm.qti.mcx.usecase.extension \
-    android.hardware.bluetooth.audio-impl-qti \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.bluetooth@1.1-impl-qti \
     camera.qcom \
@@ -314,9 +312,6 @@ PRODUCT_PACKAGES += \
     lib_SamsungRec_08020 \
     lib_SoundAlive_play_plus_ver800 \
     lib_lvacfs \
-    libbluetooth_audio_session_aidl_qti \
-    libbluetooth_audio_session_qti \
-    libbluetooth_audio_session_qti_2_1 \
     libbt-hidlclient \
     libbtnv \
     libcamerapostproc \
@@ -330,7 +325,6 @@ PRODUCT_PACKAGES += \
     libqc2audio_hwaudiocodec \
     libqfp_sensortest \
     librecordalive \
-    libsehbluetooth_audio_session_aidl \
     libsfp_sensor \
     libsfp_teegw \
     libsoc_helper \
@@ -350,8 +344,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bttpi-V2-ndk \
     vendor.qti.hardware.fm@1.0_vendor \
     vendor.samsung.hardware.bluetooth.a2dpsink@1.0 \
-    vendor.samsung.hardware.bluetooth.audio-V1-ndk \
-    vendor.samsung.hardware.bluetooth.audio-impl \
     vendor.samsung.hardware.bluetooth@2.0 \
     bttpi-saidl.xml \
     factory.ssc \
